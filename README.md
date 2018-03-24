@@ -16,7 +16,7 @@ Installation
 * Create a new folder named 'resources' under the project folder, then import all the files under the 'resources' folder.
 
 Note: there are 3 files in this project that are more than 100MB, which are exceeding the limit of Github. So I have shared
-them via Google Drive. You can download them through the links as follows:
+them via Google Drive. You can download them through the links as follows, and then put them under the 'resources' folder:
 
 [spin30minutes.mp4](https://drive.google.com/open?id=1e-MFCYscO_XJ8HE6LCeXkf9wkncIGgw8)
 
