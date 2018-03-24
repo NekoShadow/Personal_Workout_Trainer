@@ -18,8 +18,6 @@ Major Functionalities
 Installation
 ----------------------
 
-### Download the data
-
 * Clone this repo to your computer, and open any Java IDE (i.e. Eclipse).
 * Create a new package named 'Personal_Workout_Trainer'.
 * Right click on 'Personal_Workout_Trainer' package'.
