@@ -1,5 +1,5 @@
-//Name: Jianfu Zhang; Andrew ID: jianfuz
-package hw3;
+//Author: Jianfu Zhang; Email: jianfuz@andrew.cmu.edu
+package Personal_Workout_Trainer;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -19,7 +19,6 @@ public class PTData {
 	 * @return
 	 */
 	ObservableList<Exercise> loadData(String filename) {
-		//enter your code here
 		if(filename.endsWith(".xml")){
 			XMLFiler xml = new XMLFiler();
 			//Error and handling: cannot use selectedExercises=masterData, because they will change simultaneously.

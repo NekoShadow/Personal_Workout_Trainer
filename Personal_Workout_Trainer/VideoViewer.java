@@ -1,5 +1,5 @@
-//Name: Jianfu Zhang; Andrew ID: jianfuz
-package hw3;
+//Author: Jianfu Zhang; Email: jianfuz@andrew.cmu.edu
+package Personal_Workout_Trainer;
 
 import java.net.URL;
 import javafx.scene.layout.StackPane;

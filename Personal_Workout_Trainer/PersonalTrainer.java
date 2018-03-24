@@ -1,5 +1,5 @@
-//Name: Jianfu Zhang; Andrew ID: jianfuz
-package hw3;
+//Author: Jianfu Zhang; Email: jianfuz@andrew.cmu.edu
+package Personal_Workout_Trainer;
 
 import javafx.scene.input.KeyEvent;
 import java.io.File;
@@ -85,7 +85,6 @@ public class PersonalTrainer extends Application {
 	 * You may attach it here as anonymous class or as a member class in setupActions method
 	 */
 	private void loadInputGrid() { 
-		//enter your code here from HW2
 		ptView.exerciseComboBox.setItems(ptData.masterData);
 		ptView.exerciseComboBox.valueProperty().addListener(new ChangeListener<Exercise>() {
 			@Override
@@ -137,7 +136,6 @@ public class PersonalTrainer extends Application {
 	 * @param selectedExercises
 	 */
 	void loadSelectionGrid(ObservableList<Exercise> selectedExercises) {
-		//enter your code here from HW2
 		ptView.notesTextArea.clear();
 		//use FileChooser to choose the work-out file.
 		FileChooser fc = new FileChooser();
@@ -201,7 +199,7 @@ public class PersonalTrainer extends Application {
 		ptView.suggestWorkoutMenuItem.setDisable(true);
 		ptView.openWorkoutMenuItem.setOnAction(new OpenWorkoutHandler());
 		ptView.aboutHelpMenuItem.setOnAction(new AboutHandler());
-		//enter your code here 
+		
 		//set the event handlers
 		ptView.closeWorkoutMenuItem.setOnAction(new CloseWorkoutHandler());
 		ptView.addButton.setOnAction(new AddButtonHandler());

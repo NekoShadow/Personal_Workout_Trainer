@@ -1,4 +1,5 @@
-package hw3;
+//Author: Jianfu Zhang; Email: jianfuz@andrew.cmu.edu
+package Personal_Workout_Trainer;
 
 import static org.junit.Assert.*;
 

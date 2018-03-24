@@ -1,5 +1,5 @@
-//Name: Jianfu Zhang; Andrew ID: jianfuz
-package hw3;
+//Author: Jianfu Zhang; Email: jianfuz@andrew.cmu.edu
+package Personal_Workout_Trainer;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +13,6 @@ public class CSVFiler extends DataFiler{
 
 	@Override
 	public ObservableList<Exercise> readData(String filename) {
-		//enter your code here from HW2
 		StringBuilder fileContent = new StringBuilder(); 
 		try {
 			Scanner input = new Scanner (new File(filename));
@@ -37,8 +36,6 @@ public class CSVFiler extends DataFiler{
 
 
 	public void writeData(ObservableList<Exercise> selectedExercises, File file) {
-
-		//enter your code here for HW3
 		try{
 			FileWriter fileWriter = new FileWriter(file);
 			for(Exercise exercise : selectedExercises){
