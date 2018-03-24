@@ -1,7 +1,9 @@
 Problem statement
 -----------------------
 
-As health consciousness among individuals is increasing, they are looking for more convenient options to help them maintain a regular workout routine that doesn’t require joining an expensive fitness center or health club. Many of them have already learned the basic fitness exercises and just need some kind of ecosystem that helps them manage and track their workout activities. There are many options available such as workout videos and TV-shows, but their drawback is that they are not customizable and often lose their effectiveness as one’s body begins to plateau doing the same workouts again and again. People also like to keep track of which workout they did, when, and for how long to see what is working well for them, or not. To address this problem, I developed a desktop-based Personal Trainer app in this course that will help users plan and track their physical workout activities.
+As health consciousness among individuals is increasing, they are looking for more convenient options to help them maintain a regular workout routine that doesn’t require joining an expensive fitness center or health club. Many of them have already learned the basic fitness exercises and just need some kind of ecosystem that helps them manage and track their workout activities. There are many options available such as workout videos and TV-shows, but their drawback is that they are not customizable and often lose their effectiveness as one’s body begins to plateau doing the same workouts again and again. People also like to keep track of which workout they did, when, and for how long to see what is working well for them, or not. 
+
+To address this problem, I developed a desktop-based Personal Trainer app that will help users plan and track their physical workout activities.
 
 Major Functionalities
 -----------------------
