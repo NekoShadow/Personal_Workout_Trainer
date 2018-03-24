@@ -31,9 +31,9 @@ Usage
 * Now look at the Tools menu, with one option as Suggest. Note that Suggest menu item should be enabled only when a file is open.
 * Selecting Suggest menu item opens up another dialog box, that requires user to enter at least one input - either time or calories or both. Clicking on Suggest button with no input or pressing Cancel or X button should take you back to the previous workout screen. Note that the GUI for Suggest feature has to be designed by you.
 * Enter '200' in time and click on Suggest button.
-* Notice that exercises in table-view are accordingly changed, along with total workout time and calories. The rules for suggestion are same as in HW1.
+* Notice that exercises in table-view are accordingly changed, along with total workout time and calories.
 * Next, save the file. Note that this menu-item should be enabled only when a file is open. Also notice, that I made the change in Notes for Step exercise, as before, and clicked the Update button. Now it should get saved in the file.
-* The file-chooser opens up resources folder again where you can save the file. Default format is set to .csv. Use ExtensionFilter to set filters as shown. (Refer to video slides 8.5). Setting up ExtensionFilters is optional. Save the file as ‘NewWorkout.csv’.
+* The file-chooser opens up resources folder again where you can save the file. Default format is set to .csv. Use ExtensionFilter to set filters as shown. Setting up ExtensionFilters is optional. Save the file as ‘NewWorkout.csv’.
 * Notice that the Workout Name changed at the top as NewWorkout.csv. Also, Notes for Step exercise has updated text.
 * Finally, Menu-Close option closes the file and takes you back to Welcome screen.
 * Open a file again, this time incorrect CSV format (i.e. MasterWorkouts1.csv)
