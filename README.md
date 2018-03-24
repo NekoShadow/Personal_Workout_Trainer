@@ -1,7 +1,19 @@
 Problem statement
 -----------------------
 
-As health consciousness among individuals is increasing, they are looking for more convenient options to help them maintain a regular workout routine that doesn’t require joining an expensive fitness center or health club. Many of them have already learned the basic fitness exercises and just need some kind of ecosystem that helps them manage and track their workout activities. There are many options available such as workout videos and TV-shows, but their drawback is that they are not customizable and often lose their effectiveness as one’s body begins to plateau doing the same workouts again and again. People also like to keep track of which workout they did, when, and for how long to see what is working well for them, or not.
+As health consciousness among individuals is increasing, they are looking for more convenient options to help them maintain a regular workout routine that doesn’t require joining an expensive fitness center or health club. Many of them have already learned the basic fitness exercises and just need some kind of ecosystem that helps them manage and track their workout activities. There are many options available such as workout videos and TV-shows, but their drawback is that they are not customizable and often lose their effectiveness as one’s body begins to plateau doing the same workouts again and again. People also like to keep track of which workout they did, when, and for how long to see what is working well for them, or not. To address this problem, I developed a desktop-based Personal Trainer app in this course that will help users plan and track their physical workout activities.
+
+Major Functionalities
+-----------------------
+* Write data into files.
+* Handle exceptions.
+* Create a small GUI interaction screen for Suggest feature.
+* Use polymorphism to handle image and video content.
+* Allow users to save a modified workout in a new file.
+* Search for an exercise from a list of exercises within a file based on a search string for exercise name, level, or notes.
+* View image and video-workout files in the image view.
+* Handle any incorrectly formatted CSV data files, missing media files, etc. through exception handling.
+* Play workout with image, audio, and video.
 
 Installation
 ----------------------
